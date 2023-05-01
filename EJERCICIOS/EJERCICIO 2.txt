@@ -1,0 +1,28 @@
+¡Claro! Puedo proponerte un nuevo enunciado con funciones diferentes:
+
+Supongamos que estamos desarrollando un programa que debe calcular la edad de una persona 
+en años, meses y días, a partir de su fecha de nacimiento. 
+
+Para ello, debemos implementar tres funciones auxiliares:
+
+- `days_since_birth()`: Recibe una fecha de nacimiento (en formato `datetime.date()`) y devuelve el número de días que han transcurrido desde entonces hasta la fecha actual.
+- `months_since_birth()`: Recibe una fecha de nacimiento (en formato `datetime.date()`) y devuelve el número de meses que han transcurrido desde entonces hasta la fecha actual.
+- `years_since_birth()`: Recibe una fecha de nacimiento (en formato `datetime.date()`) y devuelve el número de años que han transcurrido desde entonces hasta la fecha actual.
+
+Tu tarea consiste en implementar la función `calculate_age()`, 
+que debe recibir una fecha de nacimiento (en formato `datetime.date()`) 
+y devolver un diccionario con las siguientes claves:
+
+- `years`: El número de años que ha cumplido la persona.
+- `months`: El número de meses que ha cumplido la persona (contando desde el último cumpleaños).
+- `days`: El número de días que ha cumplido la persona (contando desde el último cumpleaños).
+
+Para asegurarte de que la función `calculate_age()` funciona correctamente, 
+debes realizar una prueba de integración que combine las tres funciones auxiliares. 
+La prueba debe crear una fecha de nacimiento, llamar a las tres funciones para obtener 
+los días, meses y años transcurridos desde entonces hasta la fecha actual, y llamar 
+a `calculate_age()` para obtener el resultado esperado. 
+
+Tu tarea consiste en implementar la función `calculate_age()` y crear la prueba 
+de integración correspondiente, asegurándote de que la prueba verifica que el 
+resultado se ha calculado correctamente.

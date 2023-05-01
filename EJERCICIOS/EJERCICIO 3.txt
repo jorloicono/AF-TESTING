@@ -1,0 +1,42 @@
+En este ejercicio, se te proporcionan dos funciones que realizan la misma tarea: 
+invertir una lista de números. Una función utiliza el método `reverse()` de 
+la clase `list` de Python, mientras que la otra función utiliza una técnica de "slicing" 
+(rebanado) para invertir la lista. Tu tarea es escribir un programa que utilice `timeit` 
+para medir y comparar el tiempo de ejecución de cada función.
+
+1. Implementa las dos funciones `reverse_with_reverse()` y `reverse_with_slicing()` 
+siguiendo los comentarios en el siguiente código:
+
+```python
+def reverse_with_reverse(lst):
+    """
+    Invierte una lista utilizando el método reverse() de la clase list.
+    """
+    pass
+
+def reverse_with_slicing(lst):
+    """
+    Invierte una lista utilizando la técnica de slicing.
+    """
+    pass
+```
+
+2. Utiliza `timeit` para medir el tiempo de ejecución de cada función para listas 
+de diferentes tamaños. Para cada tamaño de lista, mide el tiempo de ejecución de cada 
+función varias veces y calcula el tiempo promedio. Utiliza la función `timeit()` de Python
+para realizar estas mediciones. Asegúrate de imprimir los resultados para cada tamaño de lista y para cada función.
+
+3. Extrae conclusiones sobre el rendimiento de cada función. 
+¿Cuál función es más rápida para listas pequeñas? 
+¿Cuál función es más rápida para listas grandes? 
+¿Hay algún tamaño de lista para el cual ambas funciones tengan tiempos de ejecución 
+similares? ¿Cómo podrías explicar estas diferencias de rendimiento?
+
+Nota: Puedes generar listas aleatorias utilizando la función `random.sample()` de Python. 
+Por ejemplo, para generar una lista de 100 números aleatorios entre 1 y 1000:
+
+```python
+import random
+
+lst = random.sample(range(1, 1001), 100)
+```

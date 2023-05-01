@@ -1,0 +1,6 @@
+Supongamos que estás desarrollando una clase Calculator que tiene métodos para realizar 
+operaciones matemáticas simples, como suma, resta, multiplicación y división. 
+
+Quieres asegurarte de que la clase Calculator funcione correctamente y no tiene errores 
+en su implementación. Para hacerlo, escribe pruebas unitarias para todos sus metodos 
+utilizando la librería de unittest de Python. 

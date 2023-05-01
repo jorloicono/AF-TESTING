@@ -1,0 +1,16 @@
+Descarga un proyecto de código abierto escrito en Python desde GitHub 
+que incluya algunos problemas conocidos de seguridad. 
+Por ejemplo, puedes utilizar un proyecto que tenga vulnerabilidades conocidas 
+como SQL injection o Cross-Site Scripting (XSS). 
+
+Utiliza Fortify para analizar el código del proyecto y detectar las vulnerabilidades 
+de seguridad existentes. A continuación, utiliza la documentación de Fortify para 
+corregir las vulnerabilidades encontradas y volver a ejecutar el análisis de seguridad 
+para verificar que las vulnerabilidades hayan sido solucionadas.
+
+Un ejemplo de proyecto de código abierto en Python que tenga algunas vulnerabilidades 
+conocidas de seguridad es el proyecto Django Blog. Django Blog es un proyecto de blog 
+simple escrito en Python utilizando el framework Django.
+
+
+
