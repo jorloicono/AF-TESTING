@@ -1,5 +1,3 @@
-¡Claro! Puedo proponerte un nuevo enunciado con funciones diferentes:
-
 Supongamos que estamos desarrollando un programa que debe calcular la edad de una persona 
 en años, meses y días, a partir de su fecha de nacimiento. 
 
